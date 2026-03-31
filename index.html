@@ -91,7 +91,28 @@
     }
   </style>
   <!-- End Heart Bubble Animation -->
+
+  <style>
+    .qr-card .card-content { padding: 0; }
+    .qr-card p { 
+      font-size: clamp(0.55rem, 2vw, 1rem) !important;
+      line-height: 1.4;
+      word-break: break-word;
+    }
+    .qr-card .subtitle {
+      font-size: clamp(0.6rem, 2.2vw, 1rem) !important;
+    }
+    .qr-card img {
+      max-width: min(160px, 38vw) !important;
+    }
+    .qr-card a[download] {
+      font-size: clamp(0.55rem, 2vw, 0.9rem) !important;
+      padding: 6px clamp(8px, 3vw, 22px) !important;
+    }
+  </style>
 </head>
+
+
 
 <body>
 
@@ -239,12 +260,14 @@
   <!-- Begin Main Content -->
   <div class="main-content">
     <!-- Begin regular-section-->
-    <section class="section-light regular-section" id="tentang-pasangan" style="padding-top: 1rem; padding-bottom: 1.5rem;">
+    <section class="section-light regular-section" id="tentang-pasangan"
+      style="padding-top: 1rem; padding-bottom: 1.5rem;">
       <div class="container">
 
         <!-- Bismillah -->
         <div class="has-text-centered" style="padding-bottom: 10px;" data-aos="fade-up" data-aos-easing="linear">
-          <img src="image/bismillah.png" class="bismillah" style="max-height:120px; width:auto;" alt="Bismillahirrahmaanirrahiim">
+          <img src="image/bismillah.png" class="bismillah" style="max-height:120px; width:auto;"
+            alt="Bismillahirrahmaanirrahiim">
         </div>
 
         <!-- ====== Responsive Family Section ====== -->
@@ -258,16 +281,19 @@
             position: relative;
             padding-bottom: 20px;
           }
+
           .family-col {
             flex: 1;
             text-align: center;
             padding: 0 16px;
             min-width: 0;
           }
+
           .family-col-center {
             flex: 0 0 80px;
             min-width: 60px;
           }
+
           .family-heading {
             font-weight: 700;
             color: #996E6D;
@@ -276,6 +302,7 @@
             white-space: nowrap;
             text-align: center;
           }
+
           .family-names-list {
             display: inline-block;
             text-align: left;
@@ -283,17 +310,21 @@
             color: #333;
             white-space: nowrap;
           }
+
           .family-names-list span {
             display: block;
             line-height: 2;
           }
+
           .family-names-wrap {
             text-align: center;
           }
+
           .divider-line {
             border-top: 1px solid #D8A9A8;
             margin: 0 12px;
           }
+
           .st-float-wrap {
             position: absolute;
             left: 50%;
@@ -303,6 +334,7 @@
             background: white;
             padding: 0 6px;
           }
+
           .family-section-bottom {
             display: flex;
             flex-direction: row;
@@ -311,12 +343,14 @@
             margin-top: 52px;
             gap: 0;
           }
+
           .couple-col {
             flex: 1;
             text-align: center;
             min-width: 0;
             padding: 0 4px;
           }
+
           .couple-name-text {
             font-family: 'Noto Serif Lao', serif;
             font-size: clamp(0.65rem, 2.8vw, 1.5rem);
@@ -324,17 +358,20 @@
             line-height: 1.3;
             white-space: nowrap;
           }
+
           .couple-nick {
             font-weight: bold;
             font-size: clamp(0.65rem, 2.2vw, 1rem);
             color: #996E6D;
             margin: 3px 0;
           }
+
           .couple-role {
             font-style: italic;
             font-size: clamp(0.6rem, 1.8vw, 0.9rem);
             color: #555;
           }
+
           .couple-logo-col {
             flex: 0 0 clamp(60px, 12vw, 110px);
             min-width: 50px;
@@ -349,24 +386,28 @@
           <div class="family-section-top">
             <div class="family-col" data-aos="fade-right">
               <p class="family-heading">ເຈົ້າພາບຝ່າຍຊາຍ</p>
-              <div class="family-names-wrap"><div class="family-names-list">
-                <span>ທ່ານ ຄຳຜິດ</span>
-                <span>ທ່ານ ແກ້ວ</span>
-                <span>ທ່ານ ຄຳເມີຍ</span>
-                <span>ທ່ານ ສິດທະພອນ</span>
-                <span>ທ່ານ ແກ້ວອຸດົມ</span>
-              </div></div>
+              <div class="family-names-wrap">
+                <div class="family-names-list">
+                  <span>ທ່ານ ຄຳຜິດ</span>
+                  <span>ທ່ານ ແກ້ວ</span>
+                  <span>ທ່ານ ຄຳເມີຍ</span>
+                  <span>ທ່ານ ສິດທະພອນ</span>
+                  <span>ທ່ານ ແກ້ວອຸດົມ</span>
+                </div>
+              </div>
             </div>
             <div class="family-col-center"></div>
             <div class="family-col" data-aos="fade-left">
               <p class="family-heading">ເຈົ້າພາບຝ່າຍຍິງ</p>
-              <div class="family-names-wrap"><div class="family-names-list">
-                <span>ທ່ານ ສົມໝາຍ</span>
-                <span>ທ່ານ ຄຳຮູ້</span>
-                <span>ທ່ານ ສີພອນ</span>
-                <span>ທ່ານ ທະວີ</span>
-                <span>ທ່ານ ວິໄຊ</span>
-              </div></div>
+              <div class="family-names-wrap">
+                <div class="family-names-list">
+                  <span>ທ່ານ ສົມໝາຍ</span>
+                  <span>ທ່ານ ຄຳຮູ້</span>
+                  <span>ທ່ານ ສີພອນ</span>
+                  <span>ທ່ານ ທະວີ</span>
+                  <span>ທ່ານ ວິໄຊ</span>
+                </div>
+              </div>
             </div>
           </div>
 
@@ -380,16 +421,16 @@
         <!-- แถวล่าง: ชื่อเจ้าบ่าว-เจ้าสาว -->
         <div class="family-section-bottom">
           <div class="couple-col" data-aos="fade-right">
-            <div class="couple-name-text">ທ້າວ ສຸກປະເສີດ ຫົງວັນຄຳ</div>
-            <p class="couple-nick">( ເອັວ )</p>
+            <div class="couple-name-text">ທ້າວ ແອນດີ້ ຄຳບຸນມີ</div>
+            <p class="couple-nick">( ເອັນ )</p>
             <p class="couple-role">ຜູ້ເປັນລູກ ແລະ ຫຼານຊາຍ</p>
           </div>
           <div class="couple-logo-col">
             <img src="image/ST_transparent.png" style="width: clamp(55px, 11vw, 110px); height: auto;" alt="S&T">
           </div>
           <div class="couple-col" data-aos="fade-left">
-            <div class="couple-name-text">ນ. ຕິກພະຈັນ ບົວສີ</div>
-            <p class="couple-nick">( ຕິກ )</p>
+            <div class="couple-name-text">ນ. ຕິກພະຈັນ ກິ່ນພະຄອນ</div>
+            <p class="couple-nick">( ໂບນັດ )</p>
             <p class="couple-role">ຜູ້ເປັນລູກ ແລະ ຫຼານສາວ</p>
           </div>
         </div>
@@ -566,75 +607,123 @@
 
           </div>
         </div>
+
+
+
+
+        <section class="section-light regular-section has-text-centered"
+          style="background-image: none !important; padding-top: 2rem;">
+          <div class="container">
+            <h1 class="title section-title" data-aos="fade-up" style="padding-bottom: 10px; margin-bottom: 10px;">
+              ຂອງຂວັນແທນໃຈ
+            </h1>
+        
+            <p class="subtitle is-6" data-aos="fade-up" style="margin-bottom: 40px;">
+              ຫາກທ່ານບໍ່ສະດວກມາມອບດ້ວຍຕົນເອງ ສາມາດຮ່ວມອວຍພອນຜ່ານທາງອອນລາຍໄດ້
+            </p>
+        
+            <div class="columns is-centered is-mobile">
+        
+              <div class="column is-6" data-aos="zoom-in" data-aos-delay="100">
+                <div class="card qr-card"
+                  style="border-radius: 16px; padding: 12px 8px; box-shadow: 0 8px 25px rgba(0,0,0,0.1); border: 1px solid #EDD2D1; background: #fff; height: 100%;">
+                  <div class="card-content">
+                    <p class="subtitle is-6 has-text-weight-bold" style="color: #BC8887; margin-bottom: 15px;">ຜ່ານບັນຊີ
+                      ເຈົ້າບ່າວ (เอ็น)</p>
+                    <img src="image/groom-qr.png" alt="Groom QR Code"
+                      style="width: 100%; max-width: 200px; margin: 0 auto 10px auto; display: block;" id="groom-qr-img">
+                    <a href="image/groom-qr.png" download="QR-ເຈົ້າບ່າວ.png"
+                      style="display: inline-block; margin: 0 auto 15px auto; background-color: #BC8887; color: white; padding: 8px 22px; border-radius: 8px; font-size: 0.9rem; text-decoration: none; cursor: pointer;">
+                      ⬇ ດາວໂຫຼດ QR
+                    </a>
+                    <p style="font-size: 0.85rem; color: #BC8887; font-size: 1.1rem; margin-top: 5px;">ທະນາຄານການຄ້າຕ່າງປະເທດລາວ
+                      (BCEL)</p>
+                    <p style="font-size: 0.85rem; color: #BC8887; font-size: 1.1rem; margin-top: 5px;">ຊື່ບັນຊີ: HEUANGVONGSA
+                      ANDY</p>
+                    <!-- <p class="has-text-weight-bold" style="color: #BC8887; font-size: 1.1rem; margin-top: 5px;">
+                              XXX-XXXX-XXXXXX</p> -->
+                  </div>
+                </div>
+              </div>
+        
+              <div class="column is-6" data-aos="zoom-in" data-aos-delay="300">
+                <div class="card qr-card"
+                  style="border-radius: 16px; padding: 12px 8px; box-shadow: 0 8px 25px rgba(0,0,0,0.1); border: 1px solid #EDD2D1; background: #fff; height: 100%;">
+                  <div class="card-content">
+                    <p class="subtitle is-6 has-text-weight-bold" style="color: #BC8887; margin-bottom: 15px;">ຜ່ານບັນຊີ
+                      ເຈົ້າສາວ (โบนัด)</p>
+                    <img src="image/bride-qr.png" alt="Bride QR Code"
+                      style="width: 100%; max-width: 200px; margin: 0 auto 10px auto; display: block;">
+                    <a href="image/bride-qr.png" download="QR-ເຈົ້າສາວ.png"
+                      style="display: inline-block; margin: 0 auto 15px auto; background-color: #BC8887; color: white; padding: 8px 22px; border-radius: 8px; font-size: 0.9rem; text-decoration: none; cursor: pointer;">
+                      ⬇ ດາວໂຫຼດ QR
+                    </a>
+                    <p style="font-size: 0.85rem; color: #BC8887; font-size: 1.1rem; margin-top: 5px;">ທະນາຄານການຄ້າຕ່າງປະເທດລາວ
+                      (BCEL)</p>
+                    <p style="font-size: 0.85rem; color: #BC8887; font-size: 1.1rem; margin-top: 5px;">ຊື່ບັນຊີ: KINPHAKHONE
+                      TIKPHACHAN</p>
+                    <!-- <p class="has-text-weight-bold" style="color: #BC8887; font-size: 1.1rem; margin-top: 5px;">
+                              XXX-XXXX-XXXXXX</p> -->
+                  </div>
+                </div>
+              </div>
+        
+            </div>
+          </div>
+        </section>
+
+
+
+
     </section>
     <!-- End Tentang [Calon Mempelai Wanita] and [Calon Mempelai [Pria] -->
 
+
+
+
     <!-- Begin RSVP Content -->
     <section class="section-dark contact" id="rsvp">
-      <div class="container">
-        <div class="columns is-multiline">
-          <div class="column is-12 prolog">
-            <h1 class="title has-text-centered section-title" data-aos="fade-up" data-aos-easing="linear">
-              ການຢືນຢັນການຮ່ວມງານ</h1>
-          </div>
-          <div class="column is-12 prolog has-text-centered" data-aos="fade-up" data-aos-easing="linear">
-            <p class="h2 subtitle">
-              ມັນເປັນກຽດ ແລະ ຄວາມສຸກຢ່າງຍິ່ງສຳລັບພວກເຮົາ
-              <br>
-              ຖ້າຫາກທ່ານສາມາດມາຮ່ວມງານ ແລະ ອວຍພອນໃຫ້ແກ່ພວກເຮົາ.
-              <br>
-              <br>
-              ຖ້າທ່ານສາມາດມາຮ່ວມງານໄດ້ ກະລຸນາແຈ້ງໃຫ້ພວກເຮົາຊາບລ່ວງໜ້າ.
-              <br>
-              <!-- Informasi: Di meja penerima tamu akan kami sediakan hand sanitizer dan pemeriksaan suhu tubuh.
-                <br>
-                <br>
-                Jika tidak memungkinkan untuk hadir di pernikahan kami,tidak mengapa,
-                <br> 
-                semoga bisa berjumpa di lain kesempatan
-                <br>
-                <br>
-                Stay safe & jaga kesehatan ya :)
-                </p> -->
+      <div class="container has-text-centered">
+        <h1 class="title section-title" data-aos="fade-up">ການຢືນຢັນການຮ່ວມງານ</h1>
 
-              <a href="https://www.facebook.com/tikphachane.bouasy" class="button btn-whatsapp" target="_blank"
-                data-aos="zoom-in">
-                <i class="fab fa-whatsapp"></i>
-                &nbsp;&nbsp;ແຈ້ງເຈົ້າສາວ
-              </a>
-
-
-
-              <a href="https://www.facebook.com/ell.hongvanthong" class="button btn-whatsapp" target="_blank"
-                data-aos="zoom-in">
-                <i class="fab fa-whatsapp"></i>
-                &nbsp;&nbsp;ແຈ້ງເຈົ້າບ່າວ
-              </a>
-            <div class="space40px"></div>
-
-            <div class="space40px"></div>
-            <div data-aos="fade-up" data-aos-easing="linear">
-              <img src="image/divider-leaves.png" class="divider has-text-centered" alt="~~~">
+        <div class="column is-6 is-offset-3" style="margin-bottom: 20px;" data-aos="fade-up">
+          <div class="field">
+            <label class="label" style="color: #996E6D;">ເລືອກຂໍ້ຄວາມອວຍພອນ</label>
+            <div class="control">
+              <div class="select is-fullwidth is-rounded">
+                <select id="whatsapp-select" onchange="checkCustomMessage()">
+                  <option value="ສະແດງຄວາມຍິນດີນຳເດີ! ຂໍໃຫ້ມີຄວາມສຸກຕະຫຼອດໄປ">ສະແດງຄວາມຍິນດີນຳເດີ!
+                    ຂໍໃຫ້ມີຄວາມສຸກຕະຫຼອດໄປ</option>
+                  <option value="ດີໃຈນຳເດີ້ໝູ່ຮັກ! ຂໍໃຫ້ຮັກກັນໝັ້ນຄົງ">ດີໃຈນຳເດີ້ໝູ່ຮັກ! ຂໍໃຫ້ຮັກກັນໝັ້ນຄົງ</option>
+                  <option value="ຂໍໂທດຫຼາຍๆ ທີ່ໄປບໍ່ໄດ້ ແຕ່ຂໍຝາກຄຳຍິນດີໄປນຳເດີ">ຂໍໂທດຫຼາຍๆ ທີ່ໄປບໍ່ໄດ້
+                    ແຕ່ຂໍຝາກຄຳຍິນດີໄປນຳເດີ</option>
+                  <option value="ຢືນຢັນໄປຮ່ວມງານເດີ! ເຈີກັັນໃນງານເດີ">ຢືນຢັນໄປຮ່ວມງານເດີ! ເຈີກັັນໃນງານເດີ</option>
+                  <option value="custom">-- ຂຽນດ້ວຍຕົນເອງ --</option>
+                </select>
+              </div>
             </div>
-            <div class="space40px"></div>
-            <p class="h2 subtitle" data-aos="fade-up" data-aos-easing="linear">
-              ດ້ວຍຄວາມນັບຖືຢ່າງສູງ
-              <!-- <br>
-                <a class="instagram":" href="https://instagram.com/instagramaccount" target="_blank" alt="Instagram CPW">
-                  <i class="fab fa-instagram"></i> @instagramaccount
-                </a>
-                &nbsp
-                <a class="instagram" href="https://instagram.com/instagramaccount" target="_blank" alt="Instagram CPP">
-                  <i class="fab fa-instagram"></i> @instagramaccount
-                </a> -->
-            </p>
-
           </div>
 
+          <div class="field" id="custom-field" style="display: none; margin-top: 15px;">
+            <div class="control">
+              <textarea id="custom-text" class="textarea is-rounded"
+                placeholder="ພິມຂໍ້ຄວາມຂອງທ່ານຢູ່ບ່อนນີ້..."></textarea>
+            </div>
+          </div>
+        </div>
+
+        <div class="buttons is-centered" data-aos="fade-up">
+          <a onclick="sendToWhatsApp('8562091209565')" class="button btn-whatsapp"
+            style="background-color: #25D366; border: none;">
+            <i class="fab fa-whatsapp"></i>&nbsp;&nbsp;ແຈ້ງເຈົ້າສາວ
+          </a>
+          <a onclick="sendToWhatsApp('8562091209565')" class="button btn-whatsapp"
+            style="background-color: #25D366; border: none;">
+            <i class="fab fa-whatsapp"></i>&nbsp;&nbsp;ແຈ້ງເຈົ້າບ່າວ
+          </a>
         </div>
       </div>
     </section>
-    <!-- End RSVP Content -->
   </div>
   <!-- End Main Content -->
 
@@ -715,7 +804,112 @@
       easing: "ease-out",
       duration: 800,
     });
+
+    // ฟังก์ชันสำหรับเลื่อนหน้าจออัตโนมัติ
+    function startAutoScroll() {
+      var speed = 1; // ปรับความเร็วที่นี่ (0.5 คือช้าๆ นุ่มนวล)
+      var scrollInterval = setInterval(function () {
+        window.scrollBy(0, speed);
+
+        // หยุดเมื่อถึงท้ายเว็บ
+        if ((window.innerHeight + window.pageYOffset) >= document.body.offsetHeight) {
+          clearInterval(scrollInterval);
+        }
+      }, 30);
+
+      // หยุดเลื่อนถ้าผู้ใช้ขยับหน้าจอเอง
+      var stopScroll = function () { clearInterval(scrollInterval); };
+      window.addEventListener("wheel", stopScroll);
+      window.addEventListener("touchstart", stopScroll);
+    }
+
+    // เมื่อโหลดหน้าเว็บและ Preloader หายไปให้เริ่มทำงานทันที
+    $(document).ready(function () {
+      // รอให้ Preloader จางหายไปก่อน (อ้างอิงจากระยะเวลาใน menikah.js)
+      setTimeout(function () {
+        // 1. เริ่มเลื่อนหน้าจออัตโนมัติ
+        startAutoScroll();
+
+        // 2. พยายามเล่นเพลง (อาจติดนโยบาย Browser ในบางเครื่อง)
+        var music = document.getElementById('wedding-music');
+        if (music) {
+          music.play().catch(function (error) {
+            console.log("Autoplay blocked: เพลงจะเล่นเมื่อมีการแตะหน้าจอครั้งแรก");
+            // ถ้าโดนบล็อก ให้รอเล่นเมื่อมีการแตะหน้าจอครั้งแรกแทน
+            document.addEventListener('click', function () {
+              music.play();
+            }, { once: true });
+          });
+        }
+      }, 2000); // เริ่มหลังจากโหลดเสร็จ 2 วินาที
+    });
+
+
+
+
+    // ฟังก์ชันเช็คว่าเลือก "เขียนเอง" หรือไม่
+    function checkCustomMessage() {
+      var select = document.getElementById('whatsapp-select');
+      var customField = document.getElementById('custom-field');
+
+      if (select.value === 'custom') {
+        customField.style.display = 'block'; // แสดงช่องพิมพ์
+      } else {
+        customField.style.display = 'none';  // ซ่อนช่องพิมพ์
+      }
+    }
+
+    // ฟังก์ชันรวบรวมข้อความและส่งไป WhatsApp
+    function sendToWhatsApp(phone) {
+      var select = document.getElementById('whatsapp-select');
+      var customText = document.getElementById('custom-text').value;
+      var finalMessage = "";
+
+      if (select.value === 'custom') {
+        finalMessage = customText;
+        if (finalMessage.trim() === "") {
+          alert("ກະລຸນາພິມຂໍ້ຄວາມກ່ອນສົ່ງ!");
+          return;
+        }
+      } else {
+        finalMessage = select.value;
+      }
+
+      // สร้างลิงก์และเปิดหน้าต่างใหม่
+      var url = "https://api.whatsapp.com/send?phone=" + phone + "&text=" + encodeURIComponent(finalMessage);
+      window.open(url, '_blank');
+    }
+
+
+
+
+
   </script>
+
+  <script>
+    // ฟังก์ชันเปิด/ปิดช่องพิมพ์ข้อความ
+    function toggleCustomInput() {
+      var select = document.getElementById('whatsapp-select');
+      var inputWrap = document.getElementById('custom-input-wrap');
+      inputWrap.style.display = (select.value === 'WRITE_OWN') ? 'block' : 'none';
+    }
+
+    // ฟังก์ชันส่ง WhatsApp
+    function sendToWhatsApp(phone) {
+      var select = document.getElementById('whatsapp-select');
+      var customText = document.getElementById('custom-text').value;
+      var message = (select.value === 'WRITE_OWN') ? customText : select.value;
+
+      if (message.trim() === "") {
+        alert("ກະລຸນາເລືອກ ຫຼື ພິມຂໍ້ຄວາມກ່ອນ!");
+        return;
+      }
+
+      var url = "https://api.whatsapp.com/send?phone=" + phone + "&text=" + encodeURIComponent(message);
+      window.open(url, '_blank');
+    }
+  </script>
+
 </body>
 
 </html>
